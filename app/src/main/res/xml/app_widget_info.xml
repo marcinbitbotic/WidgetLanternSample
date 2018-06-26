@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+	android:initialLayout="@layout/widget_layout"
+	android:label="Widget Lantern"
+	android:minHeight="40dp"
+	android:minWidth="110dp"
+	android:resizeMode="horizontal"
+	android:previewImage="@drawable/widget2x1"
+	android:updatePeriodMillis="3600000" />
+
+
+<!--
+Linea3. (android:initialLayout="@layout/miwidget_2x1") aquí relacionamos este fichero de configuración con el diseño gráfico del widget en si, fíjate que apunta al fichero de recursos tipo Layout.
+Linea4. (android:label="Linterna 2x1") esta etiqueta de texto es la que se mostrara al usuario cuando seleccione el widget de la lista de widgets.
+Línea 5 y 6. (android:minHeight="40dp") y (android:minWidth="110dp") Aquí definimos el tamaño que tendrá el widget en la pantalla,
+-->

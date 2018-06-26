@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_marginBottom="5dp"
+	android:layout_marginTop="5dp"
+	android:alpha="0.85"
+	android:background="@drawable/bg_widget"
+	android:gravity="top"
+	android:orientation="horizontal"
+	android:scaleType="fitXY"
+	tools:context=".lanternWidget">
+
+	<ImageButton
+		android:id="@+id/btn_screen"
+		android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		android:layout_weight="1"
+		android:background="@drawable/w"
+		android:contentDescription="btn_Iniciar"
+		android:padding="0dp"
+		android:scaleType="centerInside"
+		android:src="@drawable/pantalla" />
+
+	<ImageView
+		android:layout_width="1dp"
+		android:layout_height="fill_parent"
+		android:background="@android:color/black"
+		android:contentDescription="Line"
+		android:padding="0dp" />
+
+	<ImageButton
+		android:id="@+id/btn_led"
+		android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		android:layout_weight="1"
+		android:background="@drawable/w"
+		android:contentDescription="btn_Iniciar"
+		android:padding="0dp"
+		android:scaleType="centerInside"
+		android:src="@drawable/led" />
+
+</LinearLayout>
